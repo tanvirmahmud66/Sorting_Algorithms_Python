@@ -10,3 +10,5 @@ arr = [2,34,23,56,62,32,63,21]
 print("Unsorted Array: ",arr)
 insertion(arr)
 print("Sorted Array: ",arr)
+
+# time complexity = O(n^2)

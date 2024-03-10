@@ -12,4 +12,4 @@ bubble(arr)
 print("Sorted Array: ",arr)
 
 
-# time complexity = n^2
+# time complexity = O(n^2)

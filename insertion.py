@@ -13,3 +13,4 @@ print("Unsorted Array: ", arr)
 insertion(arr)
 print("Sorted Array: ",arr)
 
+# time complexity = O(n^2)
