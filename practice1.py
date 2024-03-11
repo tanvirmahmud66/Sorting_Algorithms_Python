@@ -52,12 +52,33 @@ def merge_sort(arr):
     return merge(left_array, right_array)
 
 
+# ------------------------------------------- Quick sort
+def quick(arr):
+    length = len(arr)
+    if length <= 1:
+        return arr
+    else:
+        pivot = arr.pop()
+    
+
+    smaller = []
+    greater = []
+
+    for each in arr:
+        if each<pivot:
+            smaller.append(each)
+        else:
+            greater.append(each)
+
+    return quick(smaller) + [pivot] + quick(greater)
 
 
+# ------------------------------------------- Diven code
 arr = [3,2,65,23,66,34,77,22,8,7,4,2,1]
 print("Unsorted Array: ",arr)
 # selection(arr)
 # bubble(arr)
 # insertion(arr)
-print("Sorted Array: ", merge_sort(arr))
+# print("Sorted Array: ", merge_sort(arr))
+# print("Sorted Array: ", quick(arr))
 # print("Sorted Array: ",arr)
