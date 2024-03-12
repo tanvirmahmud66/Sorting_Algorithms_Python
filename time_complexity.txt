@@ -1,0 +1,8 @@
+from smallest to largest:
+
+O(logx)
+O(x)
+O(xlogx)
+O(x^2)
+O(2^x)
+O(x!)
