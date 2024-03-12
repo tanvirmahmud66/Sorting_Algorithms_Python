@@ -1,8 +1,8 @@
 from smallest to largest:
 
-O(logx)
-O(x)
-O(xlogx)
-O(x^2)
-O(2^x)
-O(x!)
+O(logn)
+O(n)
+O(nlogn)
+O(n^2)
+O(2^n)
+O(n!)
